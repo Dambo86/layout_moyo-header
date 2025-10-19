@@ -36,13 +36,13 @@ body {
   padding: 0;
 }
 
-.list__item {
+.nav__item {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-li + li {
+.nav__item + .nav__item {
   margin-left: 20px;
 }
 
