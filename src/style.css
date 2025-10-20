@@ -48,7 +48,6 @@ body {
 
 .nav__link {
   display: block;
-  position: relative;
   height: 60px;
   line-height: 60px;
   font-size: 12px;
@@ -58,6 +57,7 @@ body {
 }
 
 .is-active {
+  position: relative;
   color: var(--active-color);
 }
 
